@@ -1,0 +1,11 @@
+var abc
+mov R1 $127
+mov R2 $64
+mov R4 $63
+mul R3 R1 R2
+add R3 R3 R4
+rrl R3 $51
+incf R3 $123
+swap R1 R0
+st R0 abc
+hlt

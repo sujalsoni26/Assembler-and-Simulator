@@ -1,0 +1,5 @@
+var xyz
+mov R0 $100
+incf R0 $1233
+add R1 R13 R2
+hlt

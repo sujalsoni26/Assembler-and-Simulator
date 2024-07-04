@@ -1,0 +1,5 @@
+var x
+mov R1 $112
+incrf R1 $2222
+swap R1 R10
+hlt

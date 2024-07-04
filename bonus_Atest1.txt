@@ -1,0 +1,9 @@
+var x
+mov R1 $5
+mov R2 $127
+incf R1 $123
+decf R2 $15
+add R1 R2 R1
+swap R1 R2
+st R1 x
+hlt 

@@ -1,0 +1,8 @@
+var x
+mov R1 $4
+mov R2 $5
+rrl R1 $34
+rrr R2 $12
+cmp R1 R2
+jlt label
+label: hlt 

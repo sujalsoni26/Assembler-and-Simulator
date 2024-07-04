@@ -1,0 +1,16 @@
+mov R1 $71
+mov R2 $9
+decf R1 $7
+incf R2 $55
+mul R3 R1 R2
+mul R3 R3 R1
+ls R1 $9
+rs R1 $19
+rrl R2 $11
+swap R1 R2
+cmp R1 R2
+cmp R2 R1
+jlt label
+swap R1 R2
+            add R3 R1 R2
+label:      hlt

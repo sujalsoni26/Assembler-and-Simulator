@@ -1,0 +1,10 @@
+Error_test1 :
+
+Error in line no. 3 - Illegal Imm value - it is out of range[0,127]
+Error in line no. 4 - There are typos in register name
+
+Error_test2 :
+
+Error in line no. 3 - There are typos in the instruction name
+Error in line no. 3 - Illegal Imm value - it is out of range[0,127]
+Error in line no. 4 - There are typos in register name

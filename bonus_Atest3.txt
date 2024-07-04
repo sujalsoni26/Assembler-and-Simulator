@@ -1,0 +1,13 @@
+var a
+var b
+mov R1 $8
+mov R2 $10
+incf R1 $2
+mul R1 R1 R2
+incf R1 $27
+rrr R1 $7
+ls R1 $1
+st R1 a
+st R2 b
+lab:	     jmp end
+end: hlt
